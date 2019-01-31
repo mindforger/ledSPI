@@ -5,6 +5,7 @@ Description=LedSPI UDP Receiver
 WorkingDirectory=LEDSPI_PATH/
 ExecStart=LEDSPI_PATH/run-ledspi
 KillMode=control-group
+Type=idle
 
 [Install]
 WantedBy=multi-user.target
